@@ -1,1 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transform property</title>
+    <style>
+        *{
+          margin: 20px;
+           margin-top: 30px;
+        }
 
+.box1{
+    height: 100px;
+    width: 100px;
+    background-color: brown;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   text-transform: capitalize;
+   font-size: 2em;
+   font-weight: bold;
+   
+   transition-property: transform;
+   transition-duration: 1s;
+   transition-timing-function: linear;
+  
+}
+.box1:hover{
+ transform: rotate(360deg); 
+}
+
+.box2{
+ height: 100px;
+    width: 100px;
+    background-color: burlywood;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   text-transform: capitalize;
+   font-size: 2em;
+   font-weight: bold;
+   cursor: pointer;
+   transition-property: transform;
+   transition-duration: 2s;
+   transition-timing-function: linear;
+}
+.box2:hover{
+transform: rotatex(360deg);
+}
+
+.box3{
+ height: 100px;
+    width: 100px;
+    background-color: cadetblue;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   text-transform: capitalize;
+   font-size: 2em;
+   font-weight: bold;
+   cursor: pointer;
+   transition-property:transform ;
+   transition-duration: 1s;
+   transition-timing-function: linear;
+}
+.box3:hover{
+transform: rotatey(180deg);
+transform: rotatey(2turn);
+}
+.box4{
+ height: 100px;
+    width: 100px;
+    background-color: chocolate;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   text-transform: capitalize;
+   font-size: 2em;
+   font-weight: bold;
+   cursor: pointer;
+   transition-property: transform;
+   transition-duration: 1s;
+   transition-timing-function: linear;
+}
+.box4:hover{
+transform: rotate(0.25turn);
+
+
+}
+.box5{
+ height: 100px;
+    width: 100px;
+    background-color:cornflowerblue;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   text-transform: capitalize;
+   font-size: 2em;
+   font-weight: bold;
+   cursor: pointer;
+   transition-property: transform;
+   transition-duration: 2s;
+   transition-timing-function: ease-out;
+
+}
+.box5:hover{
+transform: rotatex(2turn);
+}
+    </style>
+</head>
+<body>
+    <div class="box1">box1</div>
+    <div class="box2">box2</div>
+    <div class="box3">box3</div>
+    <div class="box4">box4</div>
+    <div class="box5">box5</div>
+    
+    
+</body>
+</html>
